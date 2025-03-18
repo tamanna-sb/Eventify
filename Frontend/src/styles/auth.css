@@ -1,0 +1,109 @@
+/* Ensure the body takes full height */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;  /* Optional, you can change the background color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Wrapper for entire auth container */
+  .auth-wrapper {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Styling for the header section */
+  .auth-header {
+    margin-bottom: 40px;
+  }
+  
+  .auth-header img {
+    width: 150px; /* Set the logo size */
+    margin-bottom: 20px;
+  }
+  
+  .auth-header h1 {
+    font-size: 3rem; /* Large title for the page */
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .auth-header p {
+    font-size: 1.2rem; /* Tagline font size */
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Centering the form container */
+  .auth-container {
+    max-width: 500px;  /* Increase the max-width for larger form */
+    width: 100%;  /* Ensure the form takes up to the max-width */
+    padding: 40px; /* Add more padding for a spacious form */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Enhance shadow */
+    background-color: #ffffff;
+    text-align: center; /* Center text in the container */
+  }
+  
+  /* Center the heading and add spacing */
+  h2 {
+    font-size: 2rem;  /* Increase the font size */
+    margin-bottom: 30px; /* Add more space between heading and form */
+  }
+  
+  /* Style the input fields */
+  .form-group {
+    margin-bottom: 20px; /* Increase space between form fields */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 15px; /* Increase padding for bigger input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Make input text bigger */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+  
+  /* Error message style */
+  .error {
+    color: red;
+    font-size: 14px; /* Slightly larger error message */
+    margin-top: 5px;
+  }
+  
+  /* Style for the submit button */
+  .btn {
+    width: 100%;
+    padding: 15px; /* Make the button bigger */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Increase font size on the button */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the footer text */
+  .auth-footer {
+    margin-top: 20px;
+  }
+  
+  .auth-footer a {
+    color: #007bff;
+    font-size: 1rem; /* Increase the size of the footer link */
+  }
+  
+  .auth-footer a:hover {
+    text-decoration: underline;
+  }
+  
